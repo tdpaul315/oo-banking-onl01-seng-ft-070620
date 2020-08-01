@@ -15,6 +15,7 @@ class Transfer
       false 
     end 
   end 
+  
    def both_valid?
     if @sender.valid? && @receiver.valid?
       true 
